@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+
+    <title>Pasteleria</title>
+</head>
+
+<body>
+    <header>
+       
+        <div id="logor"><img src="/img/Pasteleria Fitz.png" alt="logotipo" class="imglogo"><h1>Pasteleria Fitz</h1><br><br></div>
+        
+    </header>
+    
+    
+    <div id="desc1">
+        <p>Estos son los pasteles que manejamos</p>
+    </div><br><br>
+
+    <div id="pasteles">
+        <div> <img src="/img/ferrero.jpg" alt="Pastel Ferrero" class="imgpastel"> <br>
+              <p class="nompas">Pastel Ferrero / $300 mxn</p>  
+        </div>
+        
+        <div> <img src="/img/chocolatoso.jpg" alt="Pastel Chocolatoso" class="imgpastel"> <br>
+              <p class="nompas">Pastel Chocolatoso / $340 mxn</p>  
+        </div>
+
+        <div> <img src="/img/cubanito.jpg" alt="Pastel Cubanito" class="imgpastel"> <br>
+              <p class="nompas">Pastel Cubanito / $380 mxn</p>  
+        </div>
+         
+        <div> <img src="/img/paydeguayaba.jpg" alt="Pastel Pay de Guayaba" class="imgpastel"> <br>
+              <p class="nompas">Pay de Guayaba / $280 mxn</p>  
+        </div>
+
+        <div> <img src="/img/suizo.jpg" alt="Pastel Suizo" class="imgpastel"> <br>
+              <p class="nompas">Pastel Suizo / $400 mxn</p> 
+        </div>
+
+        <div> <img src="/img/vainflan.jpg" alt="Pastel Vainiflan" class="imgpastel"> <br>
+              <p class="nompas">Pastel Vainiflan / $380 mxn</p> 
+        </div>
+        
+    </div>
+
+    <br><br><br>
+
+    <div id="desc2">
+        <p>Estos son los accesorios que manejamos</p>
+    </div> <br><br>
+
+    <div id="accesorios">
+        <div> <img src="/img/letrero1.jpg" alt="Feliz Cumpleaños Estilo 1" class="imgaccesorio"> <br>
+              <p class="nompas">Letrero Feliz Cumpleaños Estilo 1 / $80 mxn</p>  
+        </div>
+        
+        <div> <img src="/img/letrero2.jpg" alt="Feliz Cumpleaños Estilo 2" class="imgaccesorio"> <br>
+              <p class="nompas">Letrero Feliz Cumpleaños Estilo 2 / $80 mxn</p>  
+        </div>
+
+        <div> <img src="/img/letrero3.jpg" alt="Feliz Cumpleaños Estilo 3" class="imgaccesorio"> <br>
+              <p class="nompas">Letrero Feliz Cumpleaños Estilo 3 / $80 mxn</p>  
+        </div>
+         
+        <div> <img src="/img/letrero4.jpg" alt="Feliz Cumpleaños Estilo 4" class="imgaccesorio"> <br>
+              <p class="nompas">Letrero Feliz Cumpleaños Estilo 4 / $80 mxn</p>  
+        </div>
+
+        <div> <img src="/img/velafomi.jpg" alt="Vela Fomi" class="imgaccesorio"> <br>
+              <p class="nompas">Vela de Foami / $20 mxn</p> 
+        </div>
+
+        <div> <img src="/img/velaluminosa.jpg" alt="Vela Luminosa" class="imgaccesorio"> <br>
+              <p class="nompas">Vela Luminosa / $40 mxn</p> 
+        </div>
+        
+    </div>
+
+    <br><br><br>
+
+    <div id="desc3">
+        <p>Para hacer un pedido de un pastel personalizado responder el siguiente formulario o contactanos al (667) 451 5282</p><br>
+        <p>Recuerda que solo se recibiran pedidos con 5 dias de anticipacion</p>
+    </div> <br><br>     
+    
+    <div>
+    <form action="Pedido Personalizado" method="get">
+        <p>Nombre: <input type="text" name="nombre" id="nombre"></p>
+        <p>Correo: <input type="email" name="correo" id="correo"></p>
+        <p>Telefono: <input type="tel" name="telfono" id="telefono"></p>
+        <p>Fecha de Entrega <input type="date" name="fecha" id="fecha"></p>
+        <p>Selecciona el sabor del pan <select name="saborpan" id="saborpan">
+            <option value="vainilla">Vainilla</option>
+            <option value="chocolate">Chocolate</option>
+        </select></p>
+        <p>Selecciona el sabor del cubierto de pastel <select name="cubierto" id="cubierto">
+            <option value="chocolate">Chocolate</option>
+            <option value="cajeta">Cajeta</option>
+        </select></p>
+        <p>Selecciona el topping del pastel <select name="topping" id="topping">
+            <option value="fresa">Fresas</option>
+            <option value="nuez">Nuez</option>
+            <option value="frutas">Frutas</option>
+            <option value="cereza">Cereza</option>
+            <option value="chipas">Chispas de Chocolate</option>
+        </select></p>
+        <p>Selecciona algun accesorio <select name="acce1" id="acce1">
+            <option value="none">Ninguno</option>
+            <option value="let1">Letrero Feliz Cumpleaños Estilo 1</option>
+            <option value="let2">Letrero Feliz Cumpleaños Estilo 2</option>
+            <option value="let3">Letrero Feliz Cumpleaños Estilo 3</option>
+            <option value="let4">Letrero Feliz Cumpleaños Estilo 4</option>
+            <option value="vela1">Vela de Foami</option>
+            <option value="vela2">Vela Luminosa</option>
+        </select></p>
+        <p>Selecciona algun accesorio <select name="acce1" id="acce1">
+            <option value="none">Ninguno</option>
+            <option value="let1">Letrero Feliz Cumpleaños Estilo 1</option>
+            <option value="let2">Letrero Feliz Cumpleaños Estilo 2</option>
+            <option value="let3">Letrero Feliz Cumpleaños Estilo 3</option>
+            <option value="let4">Letrero Feliz Cumpleaños Estilo 4</option>
+            <option value="vela1">Vela de Foami</option>
+            <option value="vela2">Vela Luminosa</option>
+        </select></p>
+        <input type="button" value="Enviar">
+    </form> 
+    </div>
+
+    <br><br>
+
+    <div id="desc4">
+        <p>Visitanos, estamos ubicados en</p>
+    </div>
+
+    <div style="text-align: center;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1810.6806611998727!2d-107.39721364181014!3d24.817314230528613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86bcda07d19af2ef%3A0x884cf1e033c05abe!2sProl.%20%C3%81lvaro%20Obreg%C3%B3n%203563%2C%20Gabriel%20Leyva%2C%2080030%20Culiac%C3%A1n%20Rosales%2C%20Sin.!5e0!3m2!1ses-419!2smx!4v1646552631541!5m2!1ses-419!2smx" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+        <p>Estamos atendiendote de Lunes a Sabado de 8:00 - 20:00 </p>
+    </div>
+</body>
+</html>
